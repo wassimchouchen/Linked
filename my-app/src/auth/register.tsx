@@ -1,0 +1,59 @@
+import { Link, Button } from 'components/Button'
+import { Input, Form } from 'components/Input'
+import * as validators from 'components/validators'
+import Head from 'next/head'
+
+export default function Login() {
+  function onSubmit({ username, password }) {
+    console.log({
+      username,
+      password,
+    })
+  }
+
+  return (
+    <>
+      <Head>
+        <title>Login</title>
+      </Head>
+      <div className=" grid place-content-center flex-1">
+        <div className="bg-white w-96 rounded-md p-4">
+          <h1 className="text-center text-xl font-semibold pb-10 font-tt">
+            REGISTER
+          </h1>
+
+          <Form className="grid gap-4" onSubmit={onSubmit}>
+            <Input
+              name="firstName"
+              label="First Name"
+              placeholder="First Name"
+              validations={[validators.required]}
+            />
+            <Input
+              name="lastName"
+              label="Last Name"
+              placeholder="Last Name"
+              validations={[validators.required]}
+            />
+            <Input
+              name="username"
+              label="Username"
+              placeholder="Username"
+              validations={[validators.required]}
+            />
+            <Input
+              name="password"
+              label="Password"
+              placeholder="Password"
+              validations={[validators.required]}
+              type="password"
+            />
+          </Form>
+        </div>
+        <div className="card">
+          <div className="card-body"></div>
+        </div>
+      </div>
+    </>
+  )
+}

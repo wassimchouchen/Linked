@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.font-tt {
+    font-family: 'TT', sans-serif;
+  }
+  .hero-img{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    position: relative;
+  }
+  .hero-img::before{
+    content: "";
+    background: url(https://media.istockphoto.com/photos/excited-diverse-employee-give-high-five-at-office-meeting-picture-id1263380556?k=20&m=1263380556&s=612x612&w=0&h=ASDxVLSfpUtgAlYqa7pESazG5jQN3xznUM1XOJDKKr0=);
+    background-size: cover;
+    background-image: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+  .hero-img p {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(2, 3, 8);
+    font-weight: 1000;
+    font-family:'Times New Roman', Times, serif;}
+  
+  
+  @media  screen and(max-width : 640px) {
+  
+    .hero-img h1 {
+    
+    font-size: 2rem;
+    
+   
+  }
+  }
+  .hero-img h1{
+    color: rgb(3, 27, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+    padding:  0.6rem 0 1.5rem ;
+  }
+  

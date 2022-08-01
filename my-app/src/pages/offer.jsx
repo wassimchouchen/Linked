@@ -1,11 +1,11 @@
 import { Card } from '../components/JobCard'
 import Head from '../components/head'
-
+import Footer from "../components/Footer"
 export default function Offer() {
   return (
     <>
     <Head>
-        <title>home page</title>
+        <title>Linked</title>
     </Head>
 
     <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
@@ -20,6 +20,7 @@ export default function Offer() {
         </div>
       </div>
     </div>
+    <Footer/>
             </>
   )
 }

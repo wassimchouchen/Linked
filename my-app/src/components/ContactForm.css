@@ -56,12 +56,12 @@ input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
+  color: #e7e3df;
   font-size: 0.875em;
 }
 
 input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-  color: #cbc6c1;
+  color: #b4aa9f;
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
@@ -70,12 +70,12 @@ input:hover::placeholder, textarea:hover::placeholder {
 }
 
 input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-  color: #cbc6c1;
+  color: #dfd7d0;
 }
 
 body {
   font-family: 'Lato', sans-serif;
-  background: #e2dedb;
+  background: #d1cdca;
   color: #b3aca7;
 }
 
@@ -114,8 +114,8 @@ input {
 }
 
 input:hover {
-  background: #b3aca7;
-  color: #e2dedb;
+  background: #b4afaa;
+  color: #b1a99a;
 }
 
 textarea {
@@ -158,7 +158,7 @@ textarea:hover {
   outline:none;
   cursor: pointer;
   
-  border: solid 1px #b3aca7;
+  border: solid 1px #1b1a19;
   border-top: none;
 }
 

@@ -5,7 +5,7 @@ import Categories from '../components/Categories';
 import Joboffer from '../components/Joboffer';
 import Offers from '../Offers';
 // import Slider2 from '../Slider2';
-// import Slider from '../components/Slider';
+import Slider from '../components/Slider';
 // import Navbar from "../components/Navbar";
 
 
@@ -13,7 +13,7 @@ import Offers from '../Offers';
 
 const Home = () => {
     return <div>
-    {/*<Slider/>*/}
+    <Slider/>
     <Announcement/> 
      <Categories/>
      <Joboffer/>

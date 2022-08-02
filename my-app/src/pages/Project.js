@@ -6,8 +6,8 @@ import Work from "../components/Work";
 const Project = () => {
   return (
     <div>
-
-     <HeroImg2 heading="PROJECTS" text="ARTIFICIAL INTELLIGENCE" /> 
+{/* heading="PROJECTS" text="ARTIFICIAL INTELLIGENCE" */}
+     <HeroImg2  /> 
      <Work />
      <Footer/>
 

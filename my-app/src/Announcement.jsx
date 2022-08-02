@@ -4,8 +4,8 @@ import styled from "styled-components";
 
 const Container=styled.div`
 height:30px;
-background-color:rgb(20, 144, 246);
-color:white;
+background-color:#e0e0e0;
+color:black;
 display:flex;
 align-items:center;
 justify-content:center;

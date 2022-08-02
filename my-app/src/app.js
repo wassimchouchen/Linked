@@ -10,14 +10,21 @@ import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import Offer from "./pages/offer";
+import './App.css'
+// import Mode from './components/mode'
 
 function App() {
   return (
     
     
+  
+    
+    
     
      <div className="font-lato bg-light-1 min-h-screen flex flex-col">
+    
     <Navbar />
+ 
       <Routes>
            
            

@@ -9,7 +9,7 @@ export default function Offer() {
     <Head>
         <title>Linked</title>
     </Head>
-    <HeroImg2/>
+   <HeroImg2 heading="OFFERS" text="ADD A JOB"/>
 
     <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
       <div className="p-4 md:p-10 col-span-4 grid gap-4 grid-cols-1 md:grid-cols-3">

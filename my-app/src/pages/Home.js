@@ -4,7 +4,7 @@ import Announcement from '../Announcement';
 import Categories from '../components/Categories';
 import Joboffer from '../components/Joboffer';
 import Offers from '../Offers';
-// import Slider2 from '../Slider2';
+//import Slider2 from '../Slider2';
 import Slider from '../components/Slider';
 // import Navbar from "../components/Navbar";
 
@@ -13,12 +13,13 @@ import Slider from '../components/Slider';
 
 const Home = () => {
     return <div>
-    <Slider/>
-    <Announcement/> 
+    
+    <Announcement/>
+    { /* <Slider/>*/}
      <Categories/>
      <Joboffer/>
      <Offers/>
-     {/* <Slider2/> */}
+      {/* <Slider2/> */}
      <Footer/>
     </div>;
    

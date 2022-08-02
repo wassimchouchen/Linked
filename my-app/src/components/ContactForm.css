@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+ @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #aca49c;
@@ -73,11 +73,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   color: #dfd7d0;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
-  background: #d1cdca;
-  color: #b3aca7;
-}
+
 
 header {
   position: relative;
@@ -115,7 +111,8 @@ input {
 
 input:hover {
   background: #b4afaa;
-  color: #b1a99a;
+  color: #000000;
+  font-weight: bold;
 }
 
 textarea {
@@ -132,7 +129,7 @@ textarea {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
   
-  border: solid 1px #494848;
+  border: solid 1px #161515;
   
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -164,4 +161,4 @@ textarea:hover {
 
 #submit:hover {
   color: #e2dedb;
-}
+} 

@@ -1,12 +1,15 @@
 import { Card } from '../components/JobCard'
 import Head from '../components/head'
+import Footer from "../components/Footer"
+import HeroImg2 from "../components/HeroImg2";
 
 export default function Offer() {
   return (
     <>
     <Head>
-        <title>home page</title>
+        <title>Linked</title>
     </Head>
+    <HeroImg2/>
 
     <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
       <div className="p-4 md:p-10 col-span-4 grid gap-4 grid-cols-1 md:grid-cols-3">
@@ -20,6 +23,7 @@ export default function Offer() {
         </div>
       </div>
     </div>
+    <Footer/>
             </>
   )
 }
@@ -42,7 +46,7 @@ const data = [
     },
     {
       title: 'Machine learning Engineer',
-      company: 'InstaDeep LtdstaDeep',
+      company: 'InstaDeep Ltd',
       location: 'Paris, French',
       date: '6 months ago',
       tasks: [

@@ -13,11 +13,9 @@ import Slider2 from '../Slider2';
 
 const Home = () => {
     return <div>
-    <Announcement/>
-     {/* <Navbar/>
-     <Slider/> */}
+    {/*<Slider/>*/}
+    <Announcement/> 
      <Categories/>
-    
      <Joboffer/>
      <Offers/>
      {/* <Slider2/> */}

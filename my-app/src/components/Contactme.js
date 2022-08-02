@@ -21,7 +21,7 @@ const Contactme = (props) => {
   };
    return (
 
-    
+ 
         <form id="form" class="topBefore" ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" id="name" placeholder="NAME" name="to_name" />

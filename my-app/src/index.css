@@ -7,12 +7,12 @@
   font-family: 'Outfit', sans-serif ;
 }
 body{
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
-/* h1, h4 , p ,a {
+ h1, h4 , p ,a {
   color: #fff;
   text-decoration: none;
-} */
+} 
 u1{
   list-style-type: none;
 
@@ -23,8 +23,8 @@ u1{
   text-transform: uppercase;
   background: #c1d5e0
   ;
-  color: #222;
-  border: 1px solid #fff;
+  color: #fff;
+  border: 1px solid rgb(27, 23, 23);
   font-weight: 600;
   cursor: pointer;
 }
